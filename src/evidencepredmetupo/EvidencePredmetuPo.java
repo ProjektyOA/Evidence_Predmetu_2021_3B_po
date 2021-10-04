@@ -5,6 +5,8 @@
  */
 package evidencepredmetupo;
 
+import evidencepredmetupo.gui.LoginW;
+
 /**
  *
  * @author hodl
@@ -15,7 +17,7 @@ public class EvidencePredmetuPo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       (new LoginW()).setVisible(true);
     }
     
 }
